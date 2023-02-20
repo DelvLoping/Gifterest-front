@@ -238,7 +238,6 @@ useEffect(() => {
   
   return (
     <div className="App">
-          {console.log(solana)}
       <div className={walletAddress ? 'authed-container' : 'container'}>
         <div className="header-container">
           <p className="header">📷 GIFTEREST</p>
