@@ -237,7 +237,7 @@ useEffect(() => {
 }, [walletAddress]);
   
   return (
-    <div className="App" style={{overflow: "unset !important"}}>
+    <div className="App" style={{overflow: "unset"}}>
       <div className={walletAddress ? 'authed-container' : 'container'}>
         <div className="header-container">
           <p className="header">📷 GIFTEREST</p>
